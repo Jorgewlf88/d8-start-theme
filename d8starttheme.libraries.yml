@@ -1,0 +1,16 @@
+bootstrap-css:
+ css:
+   theme:
+     css/bootstrap.min.css: {}
+
+global-css:
+  css:
+    theme:
+      css/global.min.css: {}
+
+global-js:
+  js:
+    js/scripts.min.js: {}
+  dependencies:
+    - core/jquery
+

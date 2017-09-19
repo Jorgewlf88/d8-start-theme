@@ -1,0 +1,23 @@
+name: D8 Start Theme
+description: A light base structure for theme development
+type: theme
+core: 8.x
+screenshot: screenshot.png
+version: '1.0.0'
+base theme: false
+
+libraries:
+  - d8starttheme/bootstrap-css
+  - d8starttheme/global-css
+  - d8starttheme/global-js
+
+libraries-override:
+  system/base: false
+
+regions:
+  header: 'Header'
+  sidebar_left: 'Sidebar Left'
+  sidebar_right: 'Sidebar Right'
+  content: 'Main Content'
+  footer: 'Footer'
+  copyright: 'Copyright'
